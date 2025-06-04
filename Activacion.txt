@@ -1,0 +1,157 @@
+Para activar el entorno virtual usa:
+
+./.venv/Scripts/Activate.ps1
+
+Datos del Inegi:
+https://www.inegi.org.mx/app/scitel/Default?ev=10
+
+descripcion columnas:
+https://www.inegi.org.mx/app/scitel/doc/descriptor/fd_agebmza_urbana_cpv2020.pdf
+
+
+Principales resultados por AGEB y manzana urbana
+AGEB (Área Geoestadística Básica)
+Columnas Seleccionadas:
+/// Poblacion
+- Población total
+- Relación hombres-mujeres
+- Población de 0 a 14 años
+- Población de 65 años y más
+/// Educacion
+- Población de 15 años y más con primaria completa
+- Población de 15 años y más con secundaria completa
+- Población de 18 años y más con educación posbásica
+- Grado promedio de escolaridad
+/// Servicio de Salud
+- Población sin afiliación a servicios de salud
+- Población afiliada a servicios de salud
+- Población afiliada a servicios de salud en una institución privada
+/// Vivienda
+- Promedio de ocupantes por cuarto en viviendas particulares habitadas
+- Viviendas particulares habitadas que disponen de energía eléctrica
+- Viviendas particulares habitadas que disponen de agua entubada en el ámbito de la vivienda
+- Viviendas particulares habitadas que disponen de drenaje
+- Viviendas particulares habitadas que disponen de computadora, laptop o tablet
+- Viviendas particulares habitadas que disponen de Internet
+
+Resultados consola:
+
+(.venv) PS C:\Users\harie\Documents\Escuela\6_Semestre\Mineria de Datos\Proyecto_Final\VsCode> python fraccionamientos_scraper_v2.py
+Selecciona la ciudad para extraer los fraccionamientos:
+1. Guadalajara
+2. Monterrey
+3. Puebla
+Escribe el número de tu elección: 2
+ Extrayendo fraccionamientos del municipio 'Monterrey'...
+
+
+DevTools listening on ws://127.0.0.1:56906/devtools/browser/0d476fcf-c08b-45bd-ab75-22672f7fdf32
+📄 Página 1 → https://www.rho.mx/ccdb/cp/NULL/2/19/2
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1748955274.413588   33232 voice_transcription.cc:58] Registering VoiceTranscriptionCapability     
+📄 Página 2 → https://www.rho.mx/ccdb/cp/NULL/2/19/2/2
+📄 Página 3 → https://www.rho.mx/ccdb/cp/NULL/2/19/2/3
+Created TensorFlow Lite XNNPACK delegate for CPU.
+📄 Página 4 → https://www.rho.mx/ccdb/cp/NULL/2/19/2/4
+📄 Página 5 → https://www.rho.mx/ccdb/cp/NULL/2/19/2/5
+Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#58 is a dynamic-sized tensor).
+📄 Página 6 → https://www.rho.mx/ccdb/cp/NULL/2/19/2/6
+📄 Página 7 → https://www.rho.mx/ccdb/cp/NULL/2/19/2/7
+📄 Página 8 → https://www.rho.mx/ccdb/cp/NULL/2/19/2/8
+📄 Página 9 → https://www.rho.mx/ccdb/cp/NULL/2/19/2/9
+📄 Página 10 → https://www.rho.mx/ccdb/cp/NULL/2/19/2/10
+📄 Página 11 → https://www.rho.mx/ccdb/cp/NULL/2/19/2/11
+📄 Página 12 → https://www.rho.mx/ccdb/cp/NULL/2/19/2/12
+📄 Página 13 → https://www.rho.mx/ccdb/cp/NULL/2/19/2/13
+📄 Página 14 → https://www.rho.mx/ccdb/cp/NULL/2/19/2/14
+📄 Página 15 → https://www.rho.mx/ccdb/cp/NULL/2/19/2/15
+📄 Página 16 → https://www.rho.mx/ccdb/cp/NULL/2/19/2/16
+📄 Página 17 → https://www.rho.mx/ccdb/cp/NULL/2/19/2/17
+📄 Página 18 → https://www.rho.mx/ccdb/cp/NULL/2/19/2/18
+📄 Página 19 → https://www.rho.mx/ccdb/cp/NULL/2/19/2/19
+📄 Página 20 → https://www.rho.mx/ccdb/cp/NULL/2/19/2/20
+
+¡Listo! Se guardaron 147 fraccionamientos en:       
+   - Excel: fraccionamientos_monterrey.xlsx
+   - CSV:   fraccionamientos_monterrey.csv
+
+
+(.venv) PS C:\Users\harie\Documents\Escuela\6_Semestre\Mineria de Datos\Proyecto_Final\VsCode> python fraccionamientos_scraper_v2.py
+Selecciona la ciudad para extraer los fraccionamientos:
+1. Guadalajara
+2. Monterrey
+3. Puebla
+Escribe el número de tu elección: 1
+ Extrayendo fraccionamientos del municipio 'Guadalajara'...
+
+
+DevTools listening on ws://127.0.0.1:57080/devtools/browser/48b34413-d6b5-43da-af7e-b8a8fc717289
+📄 Página 1 → https://www.rho.mx/ccdb/cp/NULL/2/14/2
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1748955421.041853   21060 voice_transcription.cc:58] Registering VoiceTranscriptionCapability     
+📄 Página 2 → https://www.rho.mx/ccdb/cp/NULL/2/14/2/2
+📄 Página 3 → https://www.rho.mx/ccdb/cp/NULL/2/14/2/3
+Created TensorFlow Lite XNNPACK delegate for CPU.
+📄 Página 4 → https://www.rho.mx/ccdb/cp/NULL/2/14/2/4 
+📄 Página 5 → https://www.rho.mx/ccdb/cp/NULL/2/14/2/5
+Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#58 is a dynamic-sized tensor).
+📄 Página 6 → https://www.rho.mx/ccdb/cp/NULL/2/14/2/6
+📄 Página 7 → https://www.rho.mx/ccdb/cp/NULL/2/14/2/7
+📄 Página 8 → https://www.rho.mx/ccdb/cp/NULL/2/14/2/8
+📄 Página 9 → https://www.rho.mx/ccdb/cp/NULL/2/14/2/9
+📄 Página 10 → https://www.rho.mx/ccdb/cp/NULL/2/14/2/10
+
+ ¡Listo! Se guardaron 94 fraccionamientos en:        
+   - Excel: fraccionamientos_guadalajara.xlsx
+   - CSV:   fraccionamientos_guadalajara.csv
+
+   
+(.venv) PS C:\Users\harie\Documents\Escuela\6_Semestre\Mineria de Datos\Proyecto_Final\VsCode> python fraccionamientos_scraper_v2.py
+Selecciona la ciudad para extraer los fraccionamientos:
+1. Guadalajara
+2. Monterrey
+3. Puebla
+Escribe el número de tu elección: 3
+ Extrayendo fraccionamientos del municipio 'Puebla'...
+
+
+DevTools listening on ws://127.0.0.1:57132/devtools/browser/7262937f-cca4-40bd-b159-8045b3cb419e
+📄 Página 1 → https://www.rho.mx/ccdb/cp/NULL/2/21/2
+[31528:10092:0603/065747.896:ERROR:components\page_load_metrics\browser\page_load_metrics_update_dispatcher.cc:179] Invalid first_paint 0.757 s for first_image_paint 0.75 s
+[31528:10092:0603/065748.019:ERROR:components\page_load_metrics\browser\page_load_metrics_update_dispatcher.cc:179] Invalid first_paint 0.757 s for first_image_paint 0.75 s
+[31528:10092:0603/065748.123:ERROR:components\page_load_metrics\browser\page_load_metrics_update_dispatcher.cc:179] Invalid first_paint 0.757 s for first_image_paint 0.75 s
+[31528:10092:0603/065748.470:ERROR:components\page_load_metrics\browser\page_load_metrics_update_dispatcher.cc:179] Invalid first_paint 0.757 s for first_image_paint 0.75 s
+[31528:10092:0603/065748.683:ERROR:components\page_load_metrics\browser\page_load_metrics_update_dispatcher.cc:179] Invalid first_paint 0.757 s for first_image_paint 0.75 s
+[31528:10092:0603/065748.857:ERROR:components\page_load_metrics\browser\page_load_metrics_update_dispatcher.cc:179] Invalid first_paint 0.757 s for first_image_paint 0.75 s
+[31528:10092:0603/065749.025:ERROR:components\page_load_metrics\browser\page_load_metrics_update_dispatcher.cc:179] Invalid first_paint 0.757 s for first_image_paint 0.75 s
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1748955469.538364   31780 voice_transcription.cc:58] Registering VoiceTranscriptionCapability     
+[31528:10092:0603/065750.157:ERROR:components\page_load_metrics\browser\page_load_metrics_update_dispatcher.cc:179] Invalid first_paint 0.757 s for first_image_paint 0.75 s
+[31528:10092:0603/065750.320:ERROR:components\page_load_metrics\browser\page_load_metrics_update_dispatcher.cc:179] Invalid first_paint 0.757 s for first_image_paint 0.75 s
+📄 Página 2 → https://www.rho.mx/ccdb/cp/NULL/2/21/2/2
+[31528:10092:0603/065752.093:ERROR:components\page_load_metrics\browser\page_load_metrics_update_dispatcher.cc:179] Invalid first_paint 0.757 s for first_image_paint 0.75 s
+📄 Página 3 → https://www.rho.mx/ccdb/cp/NULL/2/21/2/3
+Created TensorFlow Lite XNNPACK delegate for CPU.
+📄 Página 4 → https://www.rho.mx/ccdb/cp/NULL/2/21/2/4
+📄 Página 5 → https://www.rho.mx/ccdb/cp/NULL/2/21/2/5
+Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#58 is a dynamic-sized tensor).
+📄 Página 6 → https://www.rho.mx/ccdb/cp/NULL/2/21/2/6
+📄 Página 7 → https://www.rho.mx/ccdb/cp/NULL/2/21/2/7
+📄 Página 8 → https://www.rho.mx/ccdb/cp/NULL/2/21/2/8
+📄 Página 9 → https://www.rho.mx/ccdb/cp/NULL/2/21/2/9
+📄 Página 10 → https://www.rho.mx/ccdb/cp/NULL/2/21/2/10
+📄 Página 11 → https://www.rho.mx/ccdb/cp/NULL/2/21/2/11
+📄 Página 12 → https://www.rho.mx/ccdb/cp/NULL/2/21/2/12
+📄 Página 13 → https://www.rho.mx/ccdb/cp/NULL/2/21/2/13
+📄 Página 14 → https://www.rho.mx/ccdb/cp/NULL/2/21/2/14
+📄 Página 15 → https://www.rho.mx/ccdb/cp/NULL/2/21/2/15
+📄 Página 16 → https://www.rho.mx/ccdb/cp/NULL/2/21/2/16
+📄 Página 17 → https://www.rho.mx/ccdb/cp/NULL/2/21/2/17
+📄 Página 18 → https://www.rho.mx/ccdb/cp/NULL/2/21/2/18
+📄 Página 19 → https://www.rho.mx/ccdb/cp/NULL/2/21/2/19
+📄 Página 20 → https://www.rho.mx/ccdb/cp/NULL/2/21/2/20
+
+ ¡Listo! Se guardaron 169 fraccionamientos en:
+   - Excel: fraccionamientos_puebla.xlsx
+   - CSV:   fraccionamientos_puebla.csv
+(.venv) PS C:\Users\harie\Documents\Escuela\6_Semestre\Mineria de Datos\Proyecto_Final\VsCode> 
