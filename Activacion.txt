@@ -38,9 +38,9 @@ Resultados consola:
 
 (.venv) PS C:\Users\harie\Documents\Escuela\6_Semestre\Mineria de Datos\Proyecto_Final\VsCode> python fraccionamientos_scraper_v2.py
 Selecciona la ciudad para extraer los fraccionamientos:
-1. Guadalajara
-2. Monterrey
-3. Puebla
+1. Guadalajara -> Jalisco
+2. Monterrey -> Nuevo Leon
+3. Puebla -> Puebla
 Escribe el número de tu elección: 2
  Extrayendo fraccionamientos del municipio 'Monterrey'...
 
